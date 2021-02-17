@@ -66,3 +66,14 @@ do
    fi
 done
 
+
+#! /bin/bash
+ read -p "Enter Number : " Num
+fac=1
+for ((i=1;i<=Num;i++))
+do
+   fac =$(($ fac*$i))
+done
+echo "Factorial of " $Num "=" $fac
+ 
+
